@@ -12,7 +12,6 @@ def test():
     embeddings = model(audio)
     print(embeddings)
 
-
 if __name__ == "__main__":
     main()
 

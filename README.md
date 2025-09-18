@@ -1,6 +1,10 @@
 ### Starter app to use Essentia library with Python
 
 
+### What is Essentia?
+
+- ML models ready to use for music audio analysis.
+- applications include music classification, mood detection, genre detection, etc.
 
 #### Installation
 
@@ -36,3 +40,12 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+#### Download models
+
+
+- just run next command to download the models
+
+```bash
+sh download_models.sh
+```
+- you can visit [Essentia models](https://essentia.upf.edu/models.html) page for more models.
